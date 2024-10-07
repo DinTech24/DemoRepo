@@ -13,7 +13,7 @@
 
 <body>
     
-    <div class="flipkartMobileHeader  d-md-none py-3 d-flex justify-content-between">
+    <div class="flipkartMobileHeader  d-lg-none d-flex justify-content-between">
         <div>
             <i class="fa-solid fa-arrow-left ms-2"></i>
             <a href="D:/Flipkart_Web_Application_Project/Flipkart_Homepage/Flipkart_Homepage.html " class="ms-1"><img src="Product_Assets/favi-icon.png" width="40" alt=""></a>
@@ -25,7 +25,7 @@
         </div>
     </div>
     <div class="mainDiv bg-white">
-        <div class="flipkartHeader d-none d-md-flex">
+        <div class="flipkartHeader d-none d-lg-flex">
             <a href="D:/Flipkart_Web_Application_Project/Flipkart_Homepage/Flipkart_Homepage.html"><img src="Product_Assets/FlipkartHeaderLogo.png" width="100" alt=""></a>
             <div class="headerInputDivision">
                 <input class="headerInput" placeholder="Search for products,Brands and more...">
@@ -37,7 +37,7 @@
             <a class="headerAnchor" href="D:/Flipkart_Web_Application_Project/Flipkart_Cart_Page/Flipkart_Cart_Page.html"><i class="fa-solid fa-cart-shopping text-white"></i>  Cart</a>
         </div>
 
-        <div class="catagoriesHeaderSection d-none d-md-flex">
+        <div class="catagoriesHeaderSection d-none d-lg-flex">
             <a class="catagoriesSectionAnchor" href="">Electronics <i class="fa-solid fa-chevron-down headerChevronDown  fa-xs"></i></a>
             <a class="catagoriesSectionAnchor" href="">TVs and Appliances <i class="fa-solid fa-chevron-down headerChevronDown  fa-xs"></i></a>
             <a class="catagoriesSectionAnchor" href="">Men <i class="fa-solid fa-chevron-down headerChevronDown fa-xs"></i></a>
@@ -49,19 +49,19 @@
             <a class="catagoriesSectionAnchor" href="">Offer Zone </a>
         </div>
 
-        <div class="d-md-none d-flex justify-content-between my-3">
+        <div class="d-lg-none py-lg-3 d-flex justify-content-between my-3">
             <div class="d-flex">
-                <img src="Product_Assets/NiviaFootball.png" width="60"  class="ms-2 " alt="">
+                <img src="Product_Assets/NiviaFootball.png"  class="ms-2 mobileAdvImage" alt="">
                 <div class="ms-2">
-                    <div>
+                    <div class="mobileAdvProductName">
                         <div>NIVIA</div>
                         <div>Storm Football - Size: 5</div>
                     </div>
-                    <div class="d-flex w-70 justify-content-between">
+                    <div class="d-flex w-70 justify-content-between mobileAdvProductName">
                         <span class="text-secondary text-decoration-line-through">726</span>
                         <span class="ms-2">₹329</span>
                         <span class="ms-2 text-success">54% off</span>
-                        <img class="ms-2 " src="Product_Assets/FlipkartAssured.png" width="70">
+                        <img class="ms-2 mobileFlipkartAssured" src="Product_Assets/FlipkartAssured.png" >
                     </div>
                 </div>
             </div>
@@ -70,7 +70,7 @@
 
 
         <div class="screenDivision d-flex ps-3">
-            <div class="productImageDivision d-md-flex d-none justify-content-center">
+            <div class="productImageDivision d-lg-flex d-none justify-content-center">
                 <div class="allImagesListDiv">
                     <img class="productAllImages1" src="Product_Assets/ProductImageList1.png" alt="">
                     <img class="productAllImages" src="Product_Assets/ProductImageList2.png" alt="">
@@ -86,7 +86,7 @@
                     </div>
                 </div>
             </div>
-            <div class="screenSection2 d-md-block d-none">
+            <div class="screenSection2 d-lg-block d-none">
                 <div class="pathAndShare">
                     <span class="pageFullPath">
                             Home <i class="fa-solid fa-chevron-right fa-xs"></i> 
@@ -394,7 +394,7 @@
 
             </div>
         </div>
-        <div class=" mt-5 d-none d-md-block">
+        <div class=" mt-5 d-none d-lg-block">
             <span class="similarProducts ">You might be interested in</span>
             <div class="d-flex  justify-content-between mt-5">
 
@@ -429,7 +429,7 @@
         </div>
     </div>
 
-    <div class="mobileMainDivision d-block d-md-none mx-2">
+    <div class="mobileMainDivision d-block d-lg-none mx-2">
         <img src="Product_Assets/ProductMainImage.png" class="w-100 mobileProduct" alt="Image">
         <div>
             <div class="viewMoreMobile">View more from NIVIA</div>
@@ -488,7 +488,7 @@
 
         <span class="fs-4">Use it to save on your next Order. <span class="text-primary">How?</span></span>
 
-        <div class="deliveryDetails d-grid d-md-none mt-4">
+        <div class="deliveryDetails d-grid d-lg-none mt-4">
             <div class="me-3 ms-3 ms-md-0 loctionDelivery">Highlights</div>
             <div class="ms-3">
                 <div><span class="bulletClass">&#8226 </span> Volleyball</div>
@@ -499,9 +499,22 @@
             </div>
         </div>
 
-        <div class="d-md-none d-flex justify-content-between fs-3 align-items-center me-2 py-3 my-2 ">
+        <div class="d-lg-none d-flex justify-content-between fs-3 align-items-center me-2 py-3 ms-1 ">
             <span class="allOffers">All Details</span>
             <i class="fa-chevron-right fa-sm fa-solid"></i>
+        </div>
+
+        <div class="d-lg-none d-block aboutTheProduct">
+            <div class="d-lg-none d-flex justify-content-between fs-3 align-items-center me-2 py-3 ms-1 ">
+                <span class="allOffers">About the Product</span>
+                <i class="fa-chevron-up fa-sm fa-solid"></i>
+            </div>
+            <div >
+                <img src="Product_Assets/productMobileImage1.png" class="productMobileImage" alt="">
+                <img src="Product_Assets/productMobileImage2.png" class="productMobileImage" alt="">
+                <img src="Product_Assets/productMobileImage3.png" class="productMobileImage" alt="">
+            </div>
+
         </div>
 
         <div class="ratingAndReviewDiv mt-3">
@@ -509,9 +522,16 @@
             <div class="d-flex justify-content-between productSmallCard mt-2">
                 <div class="d-grid productCardDetails">
                     <img src="Product_Assets/allProductsImage1.png" class="productDivisionImage" alt="">
-                    <div>NIVIA Crater (matrix)</div>
-                    <div>Volleyball - Size: 4</div>
-                    <div class="productRating"><span class="bg-success text-white p-1 rounded-2 ratingSpan">3.9 <i class="fa-solid fa-xs fa-star"></i> </span>(3,852)</div>
+                    <div class="text-secondary">NIVIA </div>
+                    <div>Crater (matrix)</div>
+                    <div class="productRating">
+                        <i class="fa-solid fa-sm fa-star text-success"></i>
+                        <i class="fa-solid fa-sm fa-star text-success"></i>
+                        <i class="fa-solid fa-sm fa-star text-success"></i>
+                        <i class="fa-solid fa-sm fa-star text-success"></i>
+                        <i class="fa-solid fa-sm fa-star text-secondary"></i>
+                        (84,711)
+                    </div>                  
                     <div>
                         <span class="productDiscountedPriceDiff "><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>440</span>
                         <span class="productOrginalPriceDiff ms-2"><i class="fa-solid fa-indian-rupee-sign"></i>585</span>
@@ -520,9 +540,16 @@
                 </div>
                 <div class="d-grid productCardDetails">
                     <img src="Product_Assets/allProductsImage2.png" class="productDivisionImage" alt="">
-                    <div>Cosco Hand Pump</div>
-                    <div class="productRating"><span class="bg-success text-white p-1 rounded-2 ratingSpan">3.9 <i class="fa-solid fa-xs fa-star"></i></span>(84,711)</div>
-                    <div>
+                    <div>Cosco </div>
+                    <div>Hand Pump</div>
+                    <div class="productRating">
+                        <i class="fa-solid fa-sm fa-star text-success"></i>
+                        <i class="fa-solid fa-sm fa-star text-success"></i>
+                        <i class="fa-solid fa-sm fa-star text-success"></i>
+                        <i class="fa-solid fa-sm fa-star text-secondary"></i>
+                        <i class="fa-solid fa-sm fa-star text-secondary"></i>
+                        (84,711)
+                    </div>                    <div>
                         <span class="productDiscountedPriceDiff "><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>179</span>
                     </div>
                 </div>
@@ -532,10 +559,16 @@
                 <div class="d-flex justify-content-between productSmallCard mt-2">
                     <div class="d-grid productCardDetails">
                         <img src="Product_Assets/allProductsImage1.png" class="productDivisionImage" alt="">
-                        <div>NIVIA Crater (matrix)</div>
-                        <div>Volleyball - Size: 4</div>
-                        <div class="productRating"><span class="bg-success text-white p-1 rounded-2 ratingSpan">3.9 <i class="fa-solid fa-xs fa-star"></i> </span>(3,852)</div>
-                        <div>
+                        <div>NIVIA </div>
+                        <div>Crater (matrix) Volleyball</div>
+                        <div class="productRating">
+                            <i class="fa-solid fa-sm fa-star text-success"></i>
+                            <i class="fa-solid fa-sm fa-star text-success"></i>
+                            <i class="fa-solid fa-sm fa-star text-success"></i>
+                            <i class="fa-solid fa-sm fa-star text-success"></i>
+                            <i class="fa-solid fa-sm fa-star text-secondary"></i>
+                            (3,852)
+                        </div>                        <div>
                             <span class="productDiscountedPriceDiff "><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>440</span>
                             <span class="productOrginalPriceDiff ms-2"><i class="fa-solid fa-indian-rupee-sign"></i>585</span>
                             <span class="productOfferPercentageDiff ms-2">24% off</span>
@@ -543,8 +576,16 @@
                     </div>
                     <div class="d-grid productCardDetails">
                         <img src="Product_Assets/allProductsImage2.png" class="productDivisionImage" alt="">
-                        <div>Cosco Hand Pump</div>
-                        <div class="productRating"><span class="bg-success text-white p-1 rounded-2 ratingSpan">3.9 <i class="fa-solid fa-xs fa-star"></i></span>(84,711)</div>
+                        <div>Cosco</div>
+                        <div> Hand Pump</div>
+                        <div class="productRating">
+                            <i class="fa-solid fa-sm fa-star text-success"></i>
+                            <i class="fa-solid fa-sm fa-star text-success"></i>
+                            <i class="fa-solid fa-sm fa-star text-success"></i>
+                            <i class="fa-solid fa-sm fa-star text-secondary"></i>
+                            <i class="fa-solid fa-sm fa-star text-secondary"></i>
+                            (84,711)
+                        </div>
                         <div>
                             <span class="productDiscountedPriceDiff "><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>179</span>
                         </div>
@@ -557,8 +598,14 @@
                             <img src="Product_Assets/allProductsImage1.png" class="productDivisionImage" alt="">
                             <div>NIVIA Crater (matrix)</div>
                             <div>Volleyball - Size: 4</div>
-                            <div class="productRating"><span class="bg-success text-white p-1 rounded-2 ratingSpan">3.9 <i class="fa-solid fa-xs fa-star"></i> </span>(3,852)</div>
-                            <div>
+                            <div class="productRating">
+                                <i class="fa-solid fa-sm fa-star text-success"></i>
+                                <i class="fa-solid fa-sm fa-star text-success"></i>
+                                <i class="fa-solid fa-sm fa-star text-success"></i>
+                                <i class="fa-solid fa-sm fa-star text-success"></i>
+                                <i class="fa-solid fa-sm fa-star text-secondary"></i>
+                                (3,852)
+                            </div>                            <div>
                                 <span class="productDiscountedPriceDiff "><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>440</span>
                                 <span class="productOrginalPriceDiff ms-2"><i class="fa-solid fa-indian-rupee-sign"></i>585</span>
                                 <span class="productOfferPercentageDiff ms-2">24% off</span>
@@ -567,7 +614,14 @@
                         <div class="d-grid productCardDetails">
                             <img src="Product_Assets/allProductsImage2.png" class="productDivisionImage" alt="">
                             <div>Cosco Hand Pump</div>
-                            <div class="productRating"><span class="bg-success text-white p-1 rounded-2 ratingSpan">3.9 <i class="fa-solid fa-xs fa-star"></i></span>(84,711)</div>
+                            <div class="productRating">
+                                <i class="fa-solid fa-sm fa-star text-success"></i>
+                                <i class="fa-solid fa-sm fa-star text-success"></i>
+                                <i class="fa-solid fa-sm fa-star text-success"></i>
+                                <i class="fa-solid fa-sm fa-star text-secondary"></i>
+                                <i class="fa-solid fa-sm fa-star text-secondary"></i>
+                                (84,711)
+                            </div>                            
                             <div>
                                 <span class="productDiscountedPriceDiff "><i class="fa-solid fa-indian-rupee-sign fa-xs"></i>179</span>
                             </div>
@@ -576,7 +630,7 @@
                 </div>
             </div>
         </div>
-        <div class=" mt-5 d-md-none d-block"></div>
+        <div class=" mt-5 d-lg-none d-block"></div>
             <span class="similarProducts ">You might be interested in</span>
             <div>
 
@@ -611,7 +665,7 @@
         </div>
     </div>
 
-    <div class="d-md-block d-none">
+    <div class="d-lg-block d-none">
         <div class="ratingAndReviewDiv mt-3">
             <span class="similarProducts">Similar Products</span>
             <div class="d-flex justify-content-between productSmallCard mt-2">
@@ -737,17 +791,17 @@
         </div>
     </div>
 
-    <div class="linksDiv d-none d-md-block">
+    <div class="linksDiv d-none d-lg-block">
         <div class="topStories">Top Stories:<span class="brandDirectory">Brand Directory</span></div>
         <div class="mostSearched"><span class="mostSearchedSpan">MOST SEARCHED IN FURNITURE: </span> CRICKET | GAZEBOS | OXYGEN CYLINDER HOLDERS | BLUE TABLES | GREEN TABLES | RED TABLES | YELLOW TABLES | YELLOW TABLES</div>
     </div>
 
-    <div class="mobileButtonDivision d-flex d-md-none">
+    <div class="mobileButtonDivision d-flex d-lg-none">
         <button class="mobileScreenDivisionButton1"> Add to Cart</button>
         <button class="mobileMcreenDivisionButton2 "> Buy Now</button>
     </div>
 
-    <div class="footerSection d-none d-md-block">
+    <div class="footerSection d-none d-lg-block">
         <div class="d-flex justify-content-evenly mb-5">
             <div class="footerSectionDiv1 d-grid">
                 <span class="footerDivionHead">ABOUT</span>
